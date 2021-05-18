@@ -1,0 +1,328 @@
+| 2021/05/16 14:34:58 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:59), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:103), my.java.project.spotify.server.Server.start(Server.java:45), my.java.project.spotify.server.Server.main(Server.java:117)]
+
+---------------------------------------------
+
+| 2021/05/16 14:36:37 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:59), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:103), my.java.project.spotify.server.Server.start(Server.java:45), my.java.project.spotify.server.Server.main(Server.java:117)]
+
+---------------------------------------------
+
+| 2021/05/16 15:38:42 | 
+
+Exception message: Connection refused: connect
+
+Exception stacktrace: [java.base/sun.nio.ch.Net.connect0(Native Method), java.base/sun.nio.ch.Net.connect(Net.java:574), java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:784), my.java.project.spotify.client.Client.run(Client.java:29), my.java.project.spotify.client.Client.main(Client.java:73)]
+
+---------------------------------------------
+
+| 2021/05/16 15:43:24 | 
+
+Exception message: Connection refused: connect
+
+Exception stacktrace: [java.base/sun.nio.ch.Net.connect0(Native Method), java.base/sun.nio.ch.Net.connect(Net.java:574), java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:784), my.java.project.spotify.client.Client.run(Client.java:29), my.java.project.spotify.client.Client.main(Client.java:73)]
+
+---------------------------------------------
+
+| 2021/05/16 15:44:30 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 15:53:55 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 16:14:09 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.client.Client.run(Client.java:52), my.java.project.spotify.client.Client.main(Client.java:73)]
+
+---------------------------------------------
+
+| 2021/05/16 16:17:34 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 16:30:58 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 16:31:51 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 17:03:56 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 17:30:39 | 
+
+Exception message: Cannot invoke "my.java.project.spotify.command.PlaySong.stopSong()" because "this.player" is null
+
+Exception stacktrace: [my.java.project.spotify.client.Client.run(Client.java:48), my.java.project.spotify.client.Client.main(Client.java:83)]
+
+---------------------------------------------
+
+| 2021/05/16 17:57:14 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 18:00:29 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 18:02:59 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.client.Client.run(Client.java:50), my.java.project.spotify.client.Client.main(Client.java:84)]
+
+---------------------------------------------
+
+| 2021/05/16 18:10:02 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 18:57:22 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 19:01:52 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 19:04:58 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 19:07:45 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 19:45:12 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 19:55:22 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:60), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:104), my.java.project.spotify.server.Server.start(Server.java:46), my.java.project.spotify.server.Server.main(Server.java:221)]
+
+---------------------------------------------
+
+| 2021/05/16 20:14:47 | 
+
+Exception message: begin -1, end 4, length 4
+
+Exception stacktrace: [java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734), java.base/java.lang.String.substring(String.java:1903), java.base/java.lang.String.substring(String.java:1876), my.java.project.spotify.client.Client.run(Client.java:55), my.java.project.spotify.client.Client.main(Client.java:82)]
+
+---------------------------------------------
+
+| 2021/05/16 20:16:27 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:20:30 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:21:08 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:26:53 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:28:55 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:29:27 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:31:24 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/16 20:52:06 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/17 20:07:10 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/17 20:10:44 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/17 20:18:46 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/18 19:56:25 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/18 19:56:48 | 
+
+Exception message: Cannot invoke "my.java.project.spotify.command.PlaySong.getSongName()" because "this.player" is null
+
+Exception stacktrace: [my.java.project.spotify.client.Client.run(Client.java:35), my.java.project.spotify.client.Client.main(Client.java:112)]
+
+---------------------------------------------
+
+| 2021/05/18 19:57:05 | 
+
+Exception message: Cannot invoke "my.java.project.spotify.command.PlaySong.getSongName()" because "this.player" is null
+
+Exception stacktrace: [my.java.project.spotify.client.Client.run(Client.java:35), my.java.project.spotify.client.Client.main(Client.java:112)]
+
+---------------------------------------------
+
+| 2021/05/18 19:59:25 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/18 19:59:56 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+
+| 2021/05/18 20:03:30 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.client.Client.run(Client.java:46), my.java.project.spotify.client.Client.main(Client.java:82)]
+
+---------------------------------------------
+
+| 2021/05/18 20:03:54 | 
+
+Exception message: Connection reset
+
+Exception stacktrace: [java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398), my.java.project.spotify.server.Server.manageKeys(Server.java:58), my.java.project.spotify.server.Server.communicateWithChannels(Server.java:102), my.java.project.spotify.server.Server.start(Server.java:44), my.java.project.spotify.server.Server.main(Server.java:116)]
+
+---------------------------------------------
+

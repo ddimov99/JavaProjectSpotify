@@ -26,6 +26,8 @@ public class CommandTest {
 
     @After
     public void deleteTestData() {
+        String message="logout";
+        commandExecutor.execute(message,dummyScHashCode);
         List<User> filteredUsers=new ArrayList<>();
         List<String> filteredPlaylists=new ArrayList<>();
         Path usersFilePath = Path.of("users.txt");
@@ -113,7 +115,7 @@ public class CommandTest {
 
     @Test
     public void executeRegisterInvalidCommand(){
-        String message="register misho@abv.bg";
+        String message="register testmisho@abv.bg";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
         String expectedResponse ="Invalid command"+System.lineSeparator();
@@ -123,10 +125,12 @@ public class CommandTest {
 
    @Test
     public void executeRegisterAlreadyLoggedIn(){
-       String message = "login kaq@abv.bg 1";
-       commandExecutor.execute(message,dummyScHashCode);
-       message="register testmisho2@abv.bg 1";
-       String response = commandExecutor.execute(message,dummyScHashCode);
+        String message= "register testuser4@abv.bg 1";
+        commandExecutor.execute(message,dummyScHashCode);
+        message="login testuser4@abv.bg 1";
+        commandExecutor.execute(message,dummyScHashCode);
+        message="register testuser2@abv.bg 1";
+        String response = commandExecutor.execute(message,dummyScHashCode);
 
         String expectedResponse ="You have to first logout before making new account."+System.lineSeparator();
 
@@ -135,22 +139,22 @@ public class CommandTest {
 
     @Test
     public void executeRegisterInvalidEmail(){
-        String message="register misho@g 1";
+        String message="register test@g 1";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
-        String expectedResponse ="Email misho@g is invalid, select a valid one."+System.lineSeparator();
+        String expectedResponse ="Email test@g is invalid, select a valid one."+System.lineSeparator();
 
         assertEquals("'register' must return 'Invalid email' ", expectedResponse,response);
     }
 
     @Test
     public void executeRegisterTakenEmail(){
-        String message="logout";
+        String message= "register testuser@abv.bg 1";
         commandExecutor.execute(message,dummyScHashCode);
-        message="register misho@abv.bg 1";
+        message="register testuser@abv.bg 1";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
-        String expectedResponse =" Email misho@abv.bg is already taken, select another one."+System.lineSeparator();
+        String expectedResponse =" Email testuser@abv.bg is already taken, select another one."+System.lineSeparator();
 
         assertEquals("'register' must return 'Email already taken' ", expectedResponse,response);
     }
@@ -167,49 +171,46 @@ public class CommandTest {
 
     @Test
     public void executeLoginAlreadyLoggedIn(){
-        String message = "login kaq@abv.bg 1";
-       commandExecutor.execute(message,dummyScHashCode);
-       message="login kaq@abv.bg 1";
-       String response = commandExecutor.execute(message,dummyScHashCode);
+        String message= "register testuser@abv.bg 1";
+        commandExecutor.execute(message,dummyScHashCode);
+        message="login testuser@abv.bg 1";
+        commandExecutor.execute(message,dummyScHashCode);
+        message="login testuser@abv.bg 1";
+        String response = commandExecutor.execute(message,dummyScHashCode);
 
-       String expectedResponse ="You are already logged"+System.lineSeparator();
+        String expectedResponse ="You are already logged"+System.lineSeparator();
 
-       assertEquals("'login' must fail ", expectedResponse,response);
-       message="logout";
-       commandExecutor.execute(message,dummyScHashCode);
+        assertEquals("'login' must fail ", expectedResponse,response);
    }
 
     @Test
     public void executeLoginInvalidCommand(){
-        String message="login kaq@abv.bg";
+        String message="login test@abv.bg";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
         String expectedResponse ="Invalid command"+System.lineSeparator();
 
         assertEquals("'login' must fail ", expectedResponse,response);
-        message="logout";
-        commandExecutor.execute(message,dummyScHashCode);
     }
 
     @Test
     public void executeLoginOtherUserAlreadyLogged(){
-        String message="logout";
-        commandExecutor.execute(message,dummyScHashCode);
         int otherUserHash=666;
-        message="login kaq@abv.bg 1";
+        String message= "register testuser@abv.bg 1";
         commandExecutor.execute(message,otherUserHash);
+        message="login testuser@abv.bg 1";
+        commandExecutor.execute(message,otherUserHash);
+        message="login testuser@abv.bg 1";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
         String expectedResponse ="Other user is logged in ,in the account"+System.lineSeparator();
 
         assertEquals("'login' must fail ", expectedResponse,response);
-        message="logout";
-        commandExecutor.execute(message,otherUserHash);
     }
 
     @Test
     public void executeLoginEmailNotFound(){
-        String message="login NotExisting@abv.bg 1";
+        String message="login testNotExisting@abv.bg 1";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
         String expectedResponse ="Invalid email"+System.lineSeparator();
@@ -219,8 +220,9 @@ public class CommandTest {
 
     @Test
     public void executeLoginWrongPassword(){
-        commandExecutor.execute("logout",dummyScHashCode);
-        String message="login kaq@abv.bg wrong";
+        String message= "register testuser5@abv.bg 1";
+        commandExecutor.execute(message,dummyScHashCode);
+        message="login testuser5@abv.bg wrong";
         String response = commandExecutor.execute(message,dummyScHashCode);
 
         String expectedResponse ="Invalid password"+System.lineSeparator();
